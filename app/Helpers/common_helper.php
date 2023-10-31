@@ -1,6 +1,6 @@
 <?php
 
-    function gg_response( $code, $data, $type = 'json' ){
+    function gg_response( $code, $data = [], $type = 'json' ){
 
         $response = \Config\Services::response();
 

@@ -27,6 +27,7 @@ class Filters extends BaseConfig
         'miFiltro'      => \App\Filters\MyFilter::class,
         'basicAuthFilter'  => \App\Filters\BasicAuthFilter::class,
         'timezone'  => \App\Filters\TimezoneFilter::class,
+        'bearerToken' => \App\Filters\BearerTokenFilter::class,
     ];
 
     /**
